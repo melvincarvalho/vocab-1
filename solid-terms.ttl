@@ -35,3 +35,10 @@
     <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> ;
     <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "inbox"@en .
+
+<#timeline>
+    a rdf:Property ;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "Timeline is a container for posts which are intended to be ordered in time."@en ;
+    <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> ;
+    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "timeline"@en .
